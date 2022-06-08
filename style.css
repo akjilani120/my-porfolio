@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* banner section */
+.banner-sec {
+    padding: 20px;
+}
+
+.banner , .about-main {
+    display: flex;
+}
+
+.banner-title-side,
+.banner-img-side .about-title-side ,
+.about-skill-side {
+    width: 50%;
+    height: 500px;
+}
+
+.banner-title-side {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.banner-hello {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.banner-name {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.resume-file{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+.banner-about{
+    font-size: 4rem;
+   font-weight: 500;
+}
+.resume-tag{
+    width: 150px;
+    height: 60px ;
+    background-color: rgb(225, 188, 64);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.resume-tag:hover{
+    background-color: rgb(22, 120, 74);
+    color: white;
+    
+}
+.banner-img-side  img{
+    height: 500px;
+}
+/* banner section over */
+/* about section  */
+.particle{
+   position: relative;
+    width: 50%;
+    color: white;
+  
+}
+.about-me{
+    font-size: 35px;
+    font-weight: 500;
+}
+.borer-item{
+    border: 2px solid rgb(235, 131, 248);
+    width: 30%;
+    margin: 5px;
+}
+.about-item{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    width: 100%;
+}
+.me-title{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.about-details{
+    text-align: justify;
+    line-height: 28px;
+    font-size: 18px;
+}
+/* about section over */
+@media screen and (max-width:992px) {
+    .banner,  .about-main{
+        display: block;
+    } 
+    .banner-title-side,
+    .banner-img-side {
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+}
+.resume-file{
+    bottom: 15%;
+}
+.banner-about{
+   font-size: 3rem;
+}
+}
