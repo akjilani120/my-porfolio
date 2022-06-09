@@ -138,8 +138,44 @@ letter-spacing: 1px;
     font-size: 70px;
 }
 /* Service section over */
+/* Portfolio section */
+.portfolio-head{
+    background-color:rgb(37, 17, 112) ;
+    padding-top: 50px;
+    padding-bottom: 30px;   
+    position: relative;
+}
+.portfolio-main{
+    display: flex;
+}
+.portfolio-title{
+    width: 15%;    
+  
+}
+.portfolio-img{
+    width: 85%;
+    background-color: black;   
+    background-attachment: fixed;
+}
+.portfolio-heading{
+    font-size: 80px;
+    font-weight: bolder;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.portfolio-heading-head{
+    position: absolute;
+    bottom: 40%;
+    left: -10%;
+  
+}
+.card-item{
+    height: 1000px;
+}
+/* Portfolio section over */
 @media screen and (max-width:992px) {
-    .banner,  .about-main{
+    .banner,  .about-main, .portfolio-main{
         display: block;
     } 
     .banner-title-side,
@@ -164,6 +200,20 @@ letter-spacing: 1px;
         padding: 10px 0px;
         margin-top: 40px;
     }
+    .portfolio-title ,
+     .portfolio-img {
+         width: 100%;
+     }
+     .portfolio-heading{
+        transform: rotate(0deg);
+     }
+     .portfolio-heading-head{
+         text-align: center;
+        position: static;
+     }
+     .card-item{
+         height: 1120px;
+     }
 }
 @media screen and (max-width:576px) {
     .me-title{
