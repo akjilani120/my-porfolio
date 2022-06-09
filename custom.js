@@ -22,6 +22,11 @@
       offset: 200,
       anchorPlacement: 'top-center'
      })
+     var map = new GMaps({
+      el: '#map',
+      lat: 23.684994,
+      lng: 90.356331
+    });
   });
  
   
