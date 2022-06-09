@@ -20,8 +20,8 @@ body {
 }
 
 .banner-title-side,
-.banner-img-side .about-title-side ,
-.about-skill-side {
+.banner-img-side 
+ {
     width: 50%;
     height: 500px;
 }
@@ -74,9 +74,14 @@ body {
 }
 /* banner section over */
 /* about section  */
+.about-skill-side{
+ width: 55%;
+ background-color: rgb(37, 17, 112);
+ 
+}
 .particle{
    position: relative;
-    width: 50%;
+    width: 45%;
     color: white;
   
 }
@@ -86,7 +91,7 @@ body {
 }
 .borer-item{
     border: 2px solid rgb(235, 131, 248);
-    width: 30%;
+    width: 20%;
     margin: 5px;
 }
 .about-item{
@@ -94,10 +99,10 @@ body {
     top: 0;
     bottom: 0;
     left: 5%;
-    width: 100%;
+    width: 90%;
 }
 .me-title{
-    font-size: 60px;
+    font-size: 56px;
     font-weight: bolder;
     margin-top: 20px;
 }
@@ -105,6 +110,9 @@ body {
     text-align: justify;
     line-height: 28px;
     font-size: 18px;
+}
+.progress-items{
+    margin: 35px 0px;
 }
 /* about section over */
 @media screen and (max-width:992px) {
